@@ -625,4 +625,6 @@ Alternate HTTP port (web apps, testing).
 8443  
 Alternate HTTPS port (secure web services, admin panels).  
 
+I will continue to work on the Basics of DevOps
+This will be a continous and developing document
 
