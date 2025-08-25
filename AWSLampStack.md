@@ -43,4 +43,5 @@ I need to install MySQL in order to be able to store and manage data in RDS
 7. I secure Mysql using mysql_secure_installation
 8. I set a strong password for Mysql
 9. I logged into Mysql using root password created
-![alt text](mysql_native_pass.PNG)
+![alt text](Mysql_login2.PNG)
+
