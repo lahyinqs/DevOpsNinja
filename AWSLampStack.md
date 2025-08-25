@@ -30,3 +30,4 @@ D. Php - for dynamic pages
 8. I coonect to the appache through web browser
 ![alt text](apache_web_page.PNG)   
 
+## MySql Server
