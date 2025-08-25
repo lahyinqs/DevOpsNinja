@@ -44,4 +44,14 @@ I need to install MySQL in order to be able to store and manage data in RDS
 8. I set a strong password for Mysql
 9. I logged into Mysql using root password created
 ![alt text](Mysql_login2.PNG)
+### Installing PHP
+PHP is the component of the LAMP Stack that will enable the server to display dynamic content.
+Three packages are needed to be installed.
+- php
+- libapache2-mod-php
+- php-mysql
+
+1. I installed the packages using sudo apt command
+2. I cheked the php version with -v command
+![alt text](Php_installation.PNG)
 
