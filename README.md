@@ -11,3 +11,4 @@ Emojis are fun :joy:
   |August 23    |Ebenezary| Ibadan
 
 
+I will continue to add to the basics of Devops
