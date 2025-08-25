@@ -30,4 +30,17 @@ D. Php - for dynamic pages
 8. I coonect to the appache through web browser
 ![alt text](apache_web_page.PNG)   
 
-## MySql Server
+### Installing MySQL Server
+I need to install MySQL in order to be able to store and manage data in RDS
+1. I installed Mysql server using the sudo apt install
+![alt text](Mysql.PNG)   
+2. I enable Mysql using systemctl enable command
+3. I started Mysql using systemctl start command
+4. I checked Mysql status using systemctl command 
+![alt text](mysql_status.PNG)   
+5. I logged into Mysql using sudo mysql command
+6. I set password for root user using mysql_native_password command
+7. I secure Mysql using mysql_secure_installation
+8. I set a strong password for Mysql
+9. I logged into Mysql using root password created
+![alt text](mysql_native_pass.PNG)
