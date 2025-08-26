@@ -52,6 +52,7 @@ Three packages are needed to be installed.
 - php-mysql
 
 1. I installed the packages using sudo apt command
-2. I cheked the php version with -v command
+2. I cheked the php version with -v command  
+   
 ![alt text](Php_installation.PNG)
 
