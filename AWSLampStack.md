@@ -56,3 +56,20 @@ Three packages are needed to be installed.
    
 ![alt text](Php_installation.PNG)
 
+### Creating a Virtual Host
+1. I created a new directory in the webhost folder and named it 'projectlamp' which will serve as my domain  
+![alt text](projectlamp.PNG)   
+2. I assigned owner to the domain using user environment variable - chown -R $USER:$USER command
+![alt text](projectlamp2.PNG)  
+3. I created and configure a new file in Apache's sites-available directory using the nano command
+![alt text](virtualhostconf.PNG)  
+![alt text](projectlampconf2.PNG)
+4. I created index.html in the projectlamp folder and put some code using nano command
+![alt text](projectlamphtml.PNG)   
+5. I used a2ensite command to enable the virtual host
+6. I ran a2dissite command to disable default index.html to avoid confusion
+7. I used apache2ctl configtest command to check for syntax errors
+8. I used systemctl reload apache2 command to ensure all changes take effect
+9. I tested my projectlamp index.html page in browser and it displayed well
+[Visit Projectlamp](http://35.172.134.31)
+![alt text](projectlamp_index.PNG)
