@@ -72,4 +72,15 @@ Three packages are needed to be installed.
 8. I used systemctl reload apache2 command to ensure all changes take effect
 9. I tested my projectlamp index.html page in browser and it displayed well
 [Visit Projectlamp](http://35.172.134.31)
-![alt text](projectlamp_index.PNG)
+![alt text](projectlamp_index.PNG)  
+
+### Enabling Php on Projectlamp
+1. I edited dir.conf in mods-enabled in order to change the order apache serve php and html webpage usin nano command
+![alt text](projectlamp_dir.PNG)   
+2. I reloaded apache2 to effect the changes
+3. I created index.php in projectlamp folder
+4. I used nano command to edit and add some code to index.php
+![alt text](projectlamp_index_php.PNG)
+5. I tested it in browser and it displayed well
+![alt text](projectlamp_index2_php.PNG) 
+7. I removed the index.php file for security reasons because it gives sensitive information about my server
