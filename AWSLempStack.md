@@ -59,25 +59,32 @@ These two packages are needed to be installed on Nginx server.
 
 ### Configuring Nginx to Use PHP Processor
 1. I created a new directory in /var/www and named it 'projectLEMP' which will serve as my domain 
-![alt text](LEMP/projectLEMP_dir.PNG) 
+![alt text](LEMP/projectLEMP_dir.PNG)   
+
 2. I assigned owner to the domain using user environment variable - chown -R $USER:$USER command
 3. I created and configure a new file in Nginx's sites-available directory using the nano command
-![alt text](LEMP/projectLemp_conf.PNG)
+![alt text](LEMP/projectLemp_conf.PNG)  
+
 4. I activated and linked /etc/nginx/sites-available to /etc/nginx/sites-enabled
 ![alt text](LEMP/projectLemp_sites_linked.PNG)
 5. I ran sudo nginx -t to test for error
-![alt text](LEMP/projectLemp_test.PNG)
+![alt text](LEMP/projectLemp_test.PNG)  
+
 6. I disabled default nginx host and reload nginx to apply changes
 7. I created index.php in projectLEMP folder and put some code in it using sudo nano command
-![alt text](LEMP/project_Lemp_indexphp0.PNG)
+![alt text](LEMP/project_Lemp_indexphp0.PNG)  
+
 8. I created index.html in the projectLEMP folder and put some code using nano command
-![alt text](LEMP/project_Lemp_indexhtml0.PNG)
+![alt text](LEMP/project_Lemp_indexhtml0.PNG)  
+
 9.  I reordered the index files in sites-available directory to fetch .php first 
-![alt text](LEMP/projectLemp_sites_available2.PNG)  
+![alt text](LEMP/projectLemp_sites_available2.PNG)   
+
 10. I used systemctl reload nginx command to ensure all changes take effect
 11. I tested my projectLEMP index.html page in browser and it displayed well
-![alt text](LEMP/project_Lemp_indexhtml.PNG)
-10.I tested projectLEMP index.php (default) in browser and it worked 
-![alt text](LEMP/project_Lemp_indexphp.PNG)
+![alt text](LEMP/project_Lemp_indexhtml.PNG)  
 
-### Enabling Php on Projectlamp
+10.I tested projectLEMP index.php (default) in browser and it worked 
+![alt text](LEMP/project_Lemp_indexphp.PNG)  
+
+
