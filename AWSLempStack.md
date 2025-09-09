@@ -88,11 +88,13 @@ These two packages are needed to be installed on Nginx server.
 ![alt text](LEMP/projectLemp_sites_available2.PNG)   
 
 10. I used systemctl reload nginx command to ensure all changes take effect    
-11. I tested my projectLEMP index.html page in browser and it displayed well     
-![alt text](LEMP/project_Lemp_indexhtml.PNG)  
+11. I tested my projectLEMP index.html page in browser and it displayed well  
+         
+![alt text](LEMP/project_Lemp_indexhtml_new.PNG) 
 
-12. I tested projectLEMP index.php (default) in browser and it worked  
+12.  I tested projectLEMP index.php (default) in browser and it worked  
+    
+![alt text](LEMP/project_Lemp_indexphp_new.PNG) 
  
-![alt text](LEMP/project_Lemp_indexphp.PNG)  
 
 
