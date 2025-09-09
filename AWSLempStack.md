@@ -89,10 +89,11 @@ These two packages are needed to be installed on Nginx server.
 
 10. I used systemctl reload nginx command to ensure all changes take effect    
 11. I tested my projectLEMP index.html page in browser and it displayed well  
-         
-![alt text](LEMP/project_Lemp_indexhtml_new.PNG) 
+    
+![alt text](LEMP/project_Lemp_indexhtml_new1.PNG)         
 
-12.  I tested projectLEMP index.php (default) in browser and it worked  
+
+12.   I tested projectLEMP index.php (default) in browser and it worked  
     
 ![alt text](LEMP/project_Lemp_indexphp_new.PNG) 
  
