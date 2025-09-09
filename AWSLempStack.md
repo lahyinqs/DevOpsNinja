@@ -96,6 +96,12 @@ These two packages are needed to be installed on Nginx server.
 12.   I tested projectLEMP index.php (default) in browser and it worked  
     
 ![alt text](LEMP/project_Lemp_indexphp_new01.PNG)
+
+13. I created info.php file in /var/www/projectLEMP  
+14. I tested it in browser and it worked fine  
+    ![alt text](LEMP/project_Lemp_info.php.PNG)  
+
+15. I removed info.php page after testing for security reasons.
  
 
 
