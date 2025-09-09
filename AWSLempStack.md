@@ -95,7 +95,7 @@ These two packages are needed to be installed on Nginx server.
 
 12.   I tested projectLEMP index.php (default) in browser and it worked  
     
-![alt text](LEMP/project_Lemp_indexphp_new.PNG) 
+![alt text](LEMP/project_Lemp_indexphp_new01.PNG)
  
 
 
