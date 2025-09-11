@@ -89,19 +89,20 @@ These two packages are needed to be installed on Nginx server.
 
 10. I used systemctl reload nginx command to ensure all changes take effect    
 11. I tested my projectLEMP index.html page in browser and it displayed well  
-    
+[index.html](http://ec2-54-160-237-7.compute-1.amazonaws.com/index.html)    
 ![alt text](LEMP/project_Lemp_indexhtml_new1.PNG)         
 
 
-12.   I tested projectLEMP index.php (default) in browser and it worked  
+12.   I tested projectLEMP index.php (default) in browser and it worked
+[index.php](http://ec2-54-160-237-7.compute-1.amazonaws.com)  
     
 ![alt text](LEMP/project_Lemp_indexphp_new01.PNG)
 
-13. I created info.php file in /var/www/projectLEMP  
-14. I tested it in browser and it worked fine  
+1.  I created info.php file in /var/www/projectLEMP  
+2.  I tested it in browser and it worked fine  
     ![alt text](LEMP/project_Lemp_info.php.PNG)  
 
-15. I removed info.php page after testing for security reasons.
+3.  I removed info.php page after testing for security reasons.
  
 # Retrieving Data from MySQL Database with PHP
 
@@ -120,7 +121,7 @@ These two packages are needed to be installed on Nginx server.
  ![alt text](LEMP/project_Lemp_todophp.PNG) 
 
 7. I ran todo_list.php in   
- browser and it worked fine.  
+ browser and it worked fine. [todo_list](http://ec2-54-160-237-7.compute-1.amazonaws.com/todo_list.php) 
 
 ![alt text](LEMP/project_Lemp_todo1.PNG)
 
