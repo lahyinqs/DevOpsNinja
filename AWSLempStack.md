@@ -118,6 +118,7 @@ These two packages are needed to be installed on Nginx server.
 6. I created todo_list.php in /projectLEMP with nano and put some code in it  
  
  ![alt text](LEMP/project_Lemp_todophp.PNG) 
+
 7. I ran todo_list.php in   
  browser and it worked fine.
 ![alt text](LEMP/project_Lemp_todo1.PNG)
