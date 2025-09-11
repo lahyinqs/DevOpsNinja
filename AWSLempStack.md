@@ -103,5 +103,22 @@ These two packages are needed to be installed on Nginx server.
 
 15. I removed info.php page after testing for security reasons.
  
+# Retrieving Data from MySQL Database with PHP
 
+1. I created projectLEMP_database using sudo command
+2. I created LEMP_user using CREATE USER command and grant it full privileges for the database instead of using root for security reasons  
+![alt text](LEMP/project_Lemp_privileges.PNG)  
+3. I logged into mysql with LEMP_user id  
+ ![alt text](LEMP/project_Lemp_userlogin.PNG)
+4. I ran SHOW DATABASES to confirm that I have access to projectLEMP_database  
+![alt text](LEMP/project_Lemp_database.PNG)  
+
+5. I created a todo_list table and filled it with some data
+![alt text](LEMP/project_Lemp_todo.PNG)  
+6. I created todo_list.php in /projectLEMP with nano and put some code in it  
+ 
+ ![alt text](LEMP/project_Lemp_todophp.PNG) 
+7. I ran todo_list.php in   
+ browser and it worked fine.
+![alt text](LEMP/project_Lemp_todo1.PNG)
 
