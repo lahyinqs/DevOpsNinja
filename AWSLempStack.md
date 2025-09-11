@@ -120,6 +120,7 @@ These two packages are needed to be installed on Nginx server.
  ![alt text](LEMP/project_Lemp_todophp.PNG) 
 
 7. I ran todo_list.php in   
- browser and it worked fine.
+ browser and it worked fine.  
+
 ![alt text](LEMP/project_Lemp_todo1.PNG)
 
